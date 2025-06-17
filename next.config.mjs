@@ -14,6 +14,12 @@ const nextConfig = {
         });
         return config;
     },
+    distDir: 'docs',
+    images: {
+        unoptimized: true,
+        loader: 'custom',
+        loaderFile: './image-loader.js',
+    },
 };
 
 export default nextConfig;
