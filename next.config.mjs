@@ -4,6 +4,8 @@ const nextConfig = {
     basePath: '/react-test',
     images: {
         unoptimized: true,
+        loader: 'custom',
+        loaderFile: './image-loader.js',
     },
     assetPrefix: '/react-test/',
     trailingSlash: true,
@@ -13,12 +15,6 @@ const nextConfig = {
             type: 'asset/resource',
         });
         return config;
-    },
-    distDir: 'docs',
-    images: {
-        unoptimized: true,
-        loader: 'custom',
-        loaderFile: './image-loader.js',
     },
 };
 
