@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[974],{2879:(e,t,s)=>{Promise.resolve().then(s.t.bind(s,3063,23))},4615:(e,t,s)=>{"use strict";function n(e){let{src:t}=e;return"/react-test".concat(t)}s.r(t),s.d(t,{default:()=>n})}},e=>{var t=t=>e(e.s=t);e.O(0,[63,441,684,358],()=>t(2879)),_N_E=e.O()}]);

@@ -7,7 +7,7 @@ const nextConfig = {
         loader: 'custom',
         loaderFile: './image-loader.js',
     },
-    assetPrefix: '/react-test/',
+    assetPrefix: '/react-test',
     trailingSlash: true,
     webpack: (config) => {
         config.module.rules.push({
