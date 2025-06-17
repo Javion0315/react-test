@@ -7,13 +7,12 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-red-500">Hello World</h1>
       </div>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
+        <img
           className="dark:invert"
-          src="/next.svg"
+          src="/react-test/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
-          priority
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
@@ -35,9 +34,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               className="dark:invert"
-              src="/vercel.svg"
+              src="/react-test/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -61,9 +60,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
-            src="/file.svg"
+            src="/react-test/file.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -76,9 +75,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
-            src="/window.svg"
+            src="/react-test/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -91,9 +90,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
-            src="/globe.svg"
+            src="/react-test/globe.svg"
             alt="Globe icon"
             width={16}
             height={16}
